@@ -162,3 +162,92 @@ main{
     line-height: 2rem;
     /* justify-content: flex-start; */
 }
+
+
+/* resume sections */
+.resume-content{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+
+}
+.section-title{
+    text-align: center;
+    font-size: 42px;
+}
+.comun-title{
+    font-size: 41px;
+}
+
+.downloded-botton-cv{
+    margin-top: 40px;
+    margin-left: 40%;
+}       
+
+/* footer style */
+footer{
+    margin-top: 60px;
+}
+
+.fotter-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 50px 300px;
+}
+
+.secondary-b{
+    background-color:#FFF8F3;
+    
+
+}
+.contact-me {
+    width: 560px;
+    
+    
+
+}
+.contact-me .contact-des p{
+    text-align: left;
+}
+.contact-icon-part{
+    margin-top: 50px;
+}
+
+
+.contact-icon-part ul{
+    display: flex;
+    gap: 30px;
+    justify-content: left;
+    list-style: none;
+    margin-left: -36px;
+    margin-top: -30px;
+}
+
+.contact-icon-part ul a{
+    text-decoration: none;
+
+}
+
+.meassage-form input[type="text"] , input[type="email"]{
+    height: 24px; 
+    border-radius: 5px;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+footer input textarea{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+    
